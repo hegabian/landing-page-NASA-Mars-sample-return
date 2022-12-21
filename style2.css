@@ -1,0 +1,381 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    
+    height: 2000px;
+}
+.home {
+    background-color: red;
+    background-image: url(./banner.jpg);
+    color: white;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center; 
+    
+  
+}
+
+.content {
+    padding-top: 0px;
+    text-align: center;
+}
+
+
+.home img {
+    width: 50%;
+    margin-bottom: 0px;
+}
+.home h1 {
+    margin-bottom: 10px;
+    font-family: 'Alegreya', serif;
+    font-size: 50;
+}
+.home p {
+    margin-bottom: 20px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.home .btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    
+}
+
+.home .btn1 {
+    background-color: rgb(197, 153, 100);
+
+}
+
+.nav {
+    padding: 5px 0px;
+}
+.home .nav .img-container {
+    width: 30%;
+    padding: 10px 50px;
+    float: left;
+}
+.tabs {
+    width: 32%;
+    float: right;
+}
+.nav ul { 
+    padding: 20px 0px ;
+    list-style-type: none;
+
+    
+}
+.nav ul a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.nav li {
+    float: left;
+    width: 100px;
+}
+.clr {
+    clear: both;
+}
+
+.home {
+    float: left;
+}
+
+.percy {
+    
+    background-color: rgb(249, 245, 239);
+
+}
+.percy img {
+    width: 50%;
+    float: left;
+    padding: 20px 20px;
+}
+.percy .text1 {
+    text-align: center;
+    padding: 80px 20px 20px 20px;
+    
+    
+}
+.percy h2 {
+    padding-bottom: 20px;
+    font-family: 'Dancing Script', cursive;
+
+}
+.percy p {
+    padding-bottom: 20px;
+}
+.percy ol {
+    text-align: left;
+    padding-left: 53%;
+    
+}
+
+.Ingenuity {
+    padding: 10px 10px;
+
+}
+.Ingenuity img {
+    width: 50%;
+    padding: 20px 20px;
+    float: right;
+}
+.Ingenuity .text2 {
+    text-align: center;
+    padding: 100px 40px;
+}
+.Ingenuity h2 {
+    padding-bottom: 20px;
+    font-family: 'Dancing Script', cursive;
+
+}
+.Ingenuity p {
+    padding-bottom: 20px;
+}
+.Ingenuity button {
+    border-radius: 6px;
+    border: 1;
+    padding: 10px 15px;
+    background-color: blanchedalmond;
+    cursor: pointer;
+}
+.clr {
+    clear: both;
+}
+
+.sample {
+    padding: 10px 20px;
+    background-color: rgb(249, 245, 239);
+}
+.sample img {
+    width: 50%;
+    float: left;
+    padding: 20px 20px;
+}
+.sample .text3 {
+    text-align: center;
+    padding: 100px 20px;
+}
+.sample h2 {
+    padding-bottom: 20px;
+    font-family: 'Dancing Script', cursive;
+
+}
+.sample p {
+    padding-bottom: 20px;
+}
+.sample button {
+    border-radius: 6px;
+    border: 1;
+    padding: 10px 15px;
+    background-color: blanchedalmond;
+    cursor: pointer;
+}
+.backgroundfixed {
+    
+    height: 200px;
+    background-image: url(./landing\ on\ Mars.jpg);
+    background-attachment: fixed;
+    background-size: 100% ;
+}
+
+.mission {
+  display: inline-block;
+  width: 33%;
+  text-align: center;
+  padding: 100px 20px;
+ 
+    
+}
+.mission img {
+    width: 40%;
+    padding-bottom: 20px;
+}
+.mission h3 {
+    padding-bottom: 5px;
+}
+.mission p {
+    padding-bottom: 10px;
+
+}
+
+.mission button {
+    border-radius: 6px;
+    border: 1;
+    padding: 10px 15px;
+    cursor: pointer;
+    background-color: blanchedalmond;
+    cursor: pointer;
+}
+
+.contact {
+    width: 50%;
+    text-align: center;
+    float: left;
+    padding: 80 20 0 20;
+}
+.contact h2 {
+    padding-bottom: 20px;
+
+}
+.contactdetails {
+    width: 20%;
+    padding-top: 20px;
+    padding-left: 30px;
+    float: left;
+    font-size: 20px;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+.contactdetails h4 {
+    padding-bottom: 20px;
+    padding-left: 10px;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.map {
+    float: right;
+    padding: 40px 40px 0px 0px;
+}
+.contactdetails {
+    width: 50%;
+}
+.number {
+    font-size: smaller;
+}
+.choice {
+    
+    width: 100%;
+    padding-bottom: 20px;
+    padding-left: 45px;
+
+}
+.choice h3 {
+    width: 60%;
+    font-size: 10px;
+    display: inline-block;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+.choice img {
+    width: 20px;
+    height: 20px;
+}
+
+.clr {
+    clear: both;
+}
+.lastsection {
+    width: 100%;
+    padding: 5px 70px;
+    background-color: rgb(98, 75, 49);
+    font-size: 20px;
+}
+.lastsection h3 {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    color: white;
+}
+.lastsection p {
+    line-height: 30px;
+    padding-bottom: 20px;
+    color: rgb(190, 181, 172);
+}
+.block1 {
+    display: inline-block;
+    width: 24%;
+    padding-right: 10px;
+    text-align: left;
+    
+}
+.block2 {
+    display: inline-block;
+    width: 24%;
+    padding-right: 10px;
+    color: rgb(190, 181, 172); 
+    text-align: left;   
+}
+
+.block3 {
+    display: inline-block;
+    width: 24%;
+    padding-right: 10px;
+    color: rgb(190, 181, 172);    
+
+}
+.block3 ul {
+    line-height: 1.65;
+}
+.block4 {
+    display: inline-block;
+    width: 24%;
+    padding-right: 10px;
+    text-align: left;
+}
+.block4 h2 {
+    padding-bottom: 10px;
+    padding-top: 20px;
+    color: white;
+}
+.block4 img {
+    width: 10%;
+}
+.block4 h4 {
+    display: inline-block;
+    color: rgb(190, 181, 172);
+    padding-bottom: 20px;   
+    padding-top: 5px; 
+    padding-left: 10px;
+}
+.block4 .img a h4:hover {
+    color: rgb(255, 255, 255);
+}
+.block4 h5 {
+    float: right;
+    width: 90%;
+    line-height: 1.65;
+    color: rgb(190, 181, 172);
+    padding-left: 10px;
+}
+.clear {
+    clear: both;
+}
+
+.end {
+    text-align: center;
+    background-color: rgb(57, 37, 12);
+    color: bisque;
+}
+.end img {
+    width: 30%;
+    padding-bottom: 8px;
+
+}
+.end .img1 {
+    width: 5%;
+    display: inline-block;
+}
+.end .img2  {
+    width: 5%;
+    background-image: url(./contact.png);
+    display: inline-block;
+}
+.end .img3 {
+    width: 5%;
+    display: inline-block;
+}
+.end p {
+    font-size: 20;
+    padding-bottom: 20px;
+}
